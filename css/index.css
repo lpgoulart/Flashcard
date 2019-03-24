@@ -1,0 +1,62 @@
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: lightgray; 
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+hr {
+    border: 1px black solid; 
+    border-radius: 100%; 
+    width: 90%;
+}
+
+.fade {
+  transition: .5s;
+}
+
+.row {
+  margin: 20px!important;
+}
+
+p {
+  text-align: justify;
+}
+
+footer {
+  min-height: 50px
+}
+
+.social_media {
+  width: 100%;
+  text-align: center;
+
+}
+.social_media a i {
+  font-size: 20px;
+  margin: 10px 10px 10px 10px;
+  color: black;
+}
+
+.made_by {
+  text-align: center;
+}
+.made_by p {
+  font-size: 15px;
+  text-align: center!important; 
+}
+
+@media only screen and (max-width: 600px) {
+  .row {
+    margin: 0px!important;
+  }
+}

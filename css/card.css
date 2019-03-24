@@ -1,0 +1,33 @@
+.button_new_card {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+    background-color: #279;
+    color: #fff;
+    border: 0px;
+    border-radius: 100%;
+    cursor: pointer;
+    margin-bottom: 20px;
+    width: 50px;
+    height: 50px;
+
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+}
+.button_new_card:hover{
+    background-color: #38a;
+}
+
+.card-title {
+  text-align: center;
+  padding: 10px;
+}
+
+.card-text {
+  padding: 10px;
+  text-align: justify;
+}
+
+.flashcard {
+  margin: 20px 0 0 0;
+}
