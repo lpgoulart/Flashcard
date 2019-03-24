@@ -85,3 +85,16 @@ function save(edit) {
 }
 
 
+var checker = setInterval(checkEmpty, 1);
+
+function checkEmpty() {
+	if (board.childElementCount == 0) {
+		document.getElementById("board").style.backgroundImage  = "url('img/no-files.png')";
+		document.getElementById("board").style.backgroundPosition = "center";
+		document.getElementById("board").style.backgroundRepeat = "no-repeat";
+		document.getElementById("board").style.backgroundSize = "contain"; 
+	}
+	else {
+		document.getElementById("board").style.backgroundImage  = "none";
+	}
+}
