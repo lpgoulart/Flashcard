@@ -89,10 +89,10 @@ var checker = setInterval(checkEmpty, 1);
 
 function checkEmpty() {
 	if (board.childElementCount == 0) {
-		document.getElementById("board").style.backgroundImage  = "url('img/no-files.png')";
+		document.getElementById("board").style.backgroundImage  = "url('img/no-files.png')"; 
 		document.getElementById("board").style.backgroundPosition = "center";
 		document.getElementById("board").style.backgroundRepeat = "no-repeat";
-		document.getElementById("board").style.backgroundSize = "contain"; 
+		document.getElementById("board").style.backgroundSize = "35%";
 	}
 	else {
 		document.getElementById("board").style.backgroundImage  = "none";

@@ -27,6 +27,20 @@ footer {
 ::-webkit-scrollbar-thumb:hover {
   background: #555; 
 }
+.header h1{
+  margin-top: 20px;
+  font-family: 'Cinzel', serif;
+  font-size: 50px;
+}
+
+nav a {
+  font-family: 'ZCOOL XiaoWei', serif;
+  color: black;
+}
+
+nav a:hover {
+  color: black;
+}
 
 .fade {
   transition: .5s;
@@ -55,8 +69,8 @@ footer {
   text-align: center!important; 
 }
 
-#board {
-  min-height: 100px; 
+.tab-content, #board {
+  min-height: 50vh;
 }
 
 @media only screen and (max-width: 600px) {
